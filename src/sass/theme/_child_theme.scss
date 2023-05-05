@@ -3,7 +3,16 @@
 @import "header";
 @import "footer";
 @import "buttons";
+@import "forms";
+@import "news";
 @import "blocks/blocks";
+
+#main {
+    margin-top: 70px;
+    @media (width >= 992px) {
+        margin-top: 80px;
+    }
+}
 
 a {
     color: var(--col-green-400);

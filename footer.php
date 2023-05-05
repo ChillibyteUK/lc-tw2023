@@ -47,7 +47,7 @@ defined('ABSPATH') || exit;
             <div class="col-md-6 mb-2 mb-md-0">
                 &copy; <?=date('Y')?> Tidey &amp; Webb Ltd. Registered in England No. 01329531                
             </div>
-            <div class="col-md-6 text-md-right">
+            <div class="col-md-6 text-md-end">
                 <a href="/privacy-policy/">Privacy Policy</a> | <a href="/cookie-policy/">Cookie Policy</a> <!-- | <a href="/terms-conditions/">Terms &amp; Conditions</a> --> | Site by <a href="https://www.lamcat.co.uk/" rel="nofollow noopener" target="_blank" class="lc" title="Site by Lamcat">Lamcat</a>
             </div>
         </div>
