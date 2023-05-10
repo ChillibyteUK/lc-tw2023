@@ -139,7 +139,7 @@
 
 .sidebar {
     position: sticky;
-    top: var(--h-top);
+    top: calc(var(--h-top) * -1);
     padding: 1rem;
     background: var(--col-green-400);
     color: var(--col-gold-400);
