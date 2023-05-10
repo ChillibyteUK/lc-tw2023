@@ -12,6 +12,10 @@
         content: '' !important;
     }
 
+    min-height: 65px;
+    @media (width >= 576px) {
+        min-height: 70px;
+    }
 }
 
 
