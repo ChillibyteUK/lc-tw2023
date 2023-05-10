@@ -22,10 +22,14 @@ $img = get_the_post_thumbnail_url(get_the_ID(),'full');
         <div class="row g-4 pb-4">
             <div class="col-lg-9 order-2 order-lg-1">
                 <h1 class="blog__title"><?=get_the_title()?></h1>
+                <?php
+                if ($img) {
+                    ?>
                 <img src="<?=$img?>" alt="" class="blog__image">
-            <?php
-            $count = estimate_reading_time_in_minutes( get_the_content(), 200, true, true );
-            echo $count;
+                    <?php
+                }
+                $count = estimate_reading_time_in_minutes( get_the_content(), 200, true, true );
+                echo $count;
 
     foreach ($blocks as $block) {
         if ($block['blockName'] == 'core/heading') {
