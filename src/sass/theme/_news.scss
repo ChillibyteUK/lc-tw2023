@@ -36,9 +36,13 @@
     }
     &__title {
         font-size: 1.2rem;
+        min-height: 3rem;
     }
     &__date {
         font-size: 0.8rem;
+    }
+    &__content {
+        min-height: 4.5rem;
     }
 }
 
