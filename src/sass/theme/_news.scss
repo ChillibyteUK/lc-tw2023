@@ -147,18 +147,23 @@
     ul {
         padding-inline-start: 0;
         list-style: none;
+        margin-top: 0.5rem;
     }
     a {
         color: var(--col-gold-400);
     }
 
-    h5.d-lg-none::after {
+    .h5 {
+        margin-bottom: 0;
+    }
+    .h5.d-lg-none::after {
         content: "\f0d7";
         font-family: "Font Awesome 6 Free";
+        font-weight: 800;
         position: absolute;
         right: 1em;
     }
-    h5.d-lg-none.collapsed::after {
+    .h5.d-lg-none.collapsed::after {
         content: "\f0da";
     }
 }
