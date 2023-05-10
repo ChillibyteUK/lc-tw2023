@@ -22073,6 +22073,18 @@ input[type=checkbox] {
   font-size: 0.9rem;
 }
 
+.blog__image {
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.sidebar {
+  position: sticky;
+}
+
 .hero {
   position: relative;
   min-height: 480px;
