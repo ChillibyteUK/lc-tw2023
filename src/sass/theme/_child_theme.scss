@@ -10,7 +10,8 @@
 #main {
     margin-top: 70px;
     @media (width >= 992px) {
-        margin-top: 80px;
+        // 80px;
+        margin-top: calc(var(--h-top) * -1);
     }
 }
 

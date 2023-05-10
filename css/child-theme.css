@@ -22382,7 +22382,7 @@ svg.chevron {
 }
 @media (width >= 992px) {
   #main {
-    margin-top: 80px;
+    margin-top: calc(var(--h-top) * -1);
   }
 }
 
