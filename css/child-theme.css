@@ -22089,8 +22089,8 @@ input[type=checkbox] {
   color: var(--col-gold-400);
 }
 .sidebar ul {
-  -webkit-margin-start: 0;
-  margin-inline-start: 0;
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
   list-style: none;
 }
 .sidebar a {
