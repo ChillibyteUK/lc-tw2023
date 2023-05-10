@@ -22074,6 +22074,7 @@ input[type=checkbox] {
 }
 
 .blog__image {
+  width: 100%;
   aspect-ratio: 16/9;
   -o-object-fit: cover;
   object-fit: cover;
