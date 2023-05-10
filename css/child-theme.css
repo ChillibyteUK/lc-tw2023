@@ -22079,6 +22079,7 @@ input[type=checkbox] {
   object-fit: cover;
   -o-object-position: center;
   object-position: center;
+  margin-bottom: 0.5rem;
 }
 
 .sidebar {
@@ -22095,6 +22096,14 @@ input[type=checkbox] {
 }
 .sidebar a {
   color: var(--col-gold-400);
+}
+.sidebar h5.d-lg-none::after, .sidebar .d-lg-none.h5::after {
+  content: "v";
+  position: absolute;
+  right: 1em;
+}
+.sidebar h5.d-lg-none::after.collapsed, .sidebar .d-lg-none.h5::after.collapsed {
+  content: ">";
 }
 
 .hero {

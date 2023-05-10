@@ -134,6 +134,7 @@
         aspect-ratio: 16 / 9;
         object-fit: cover;
         object-position: center;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -149,5 +150,14 @@
     }
     a {
         color: var(--col-gold-400);
+    }
+
+    h5.d-lg-none::after {
+        content: "v";
+        position: absolute;
+        right: 1em;
+        &.collapsed {
+            content: ">";
+        }
     }
 }
