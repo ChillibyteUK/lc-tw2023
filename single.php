@@ -46,7 +46,7 @@ $img = get_the_post_thumbnail_url(get_the_ID(),'full');
                     ?>
                 <div class="sidebar">
                     <div class="h5 d-none d-lg-block">Quick Links</div>
-                    <div class="h5 d-lg-none" data-bs-toggle="collapse" href="#links" role="button">Quick Links</div>
+                    <div class="h5 d-lg-none collapsed" data-bs-toggle="collapse" href="#links" role="button">Quick Links</div>
                     <div class="collapse d-lg-block" id="links">
                         <ul>
                         <?php
