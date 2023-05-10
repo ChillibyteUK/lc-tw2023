@@ -22102,7 +22102,7 @@ input[type=checkbox] {
   position: absolute;
   right: 1em;
 }
-.sidebar h5.d-lg-none::after.collapsed, .sidebar .d-lg-none.h5::after.collapsed {
+.sidebar h5.d-lg-none.collapsed::after, .sidebar .d-lg-none.collapsed.h5::after {
   content: ">";
 }
 

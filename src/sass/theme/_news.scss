@@ -156,8 +156,8 @@
         content: "v";
         position: absolute;
         right: 1em;
-        &.collapsed {
-            content: ">";
-        }
+    }
+    h5.d-lg-none.collapsed::after {
+        content: ">";
     }
 }
