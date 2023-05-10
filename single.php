@@ -20,7 +20,7 @@ $img = get_the_post_thumbnail_url(get_the_ID(),'full');
     </section>
     <div class="container-xl">
         <div class="row g-4 pb-4">
-            <div class="col-lg-9">
+            <div class="col-lg-9 order-2 order-lg-1">
                 <h1 class="blog__title"><?=get_the_title()?></h1>
                 <img src="<?=$img?>" alt="" class="blog__image">
             <?php
@@ -40,7 +40,7 @@ $img = get_the_post_thumbnail_url(get_the_ID(),'full');
     }
             ?>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 order-1 order-lg-2">
                 <?php
                 if ($sidebar) {
                     ?>
