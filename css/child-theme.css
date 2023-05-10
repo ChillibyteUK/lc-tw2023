@@ -22085,7 +22085,7 @@ input[type=checkbox] {
 
 .sidebar {
   position: sticky;
-  top: calc(var(--h-top) * -1);
+  top: calc(var(--h-top) * -1 + 1rem);
   padding: 1rem;
   background: var(--col-green-400);
   color: var(--col-gold-400);
@@ -22432,8 +22432,9 @@ a.anchor {
   display: inline-block;
 }
 
-#breadcrumbs {
+.breadcrumbs {
   font-size: 0.889rem;
+  margin-top: 1rem;
 }
 
 .reading {
