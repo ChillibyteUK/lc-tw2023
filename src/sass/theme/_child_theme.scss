@@ -8,7 +8,7 @@
 @import "blocks/blocks";
 
 #main {
-    margin-top: 70px;
+    margin-top: calc(var(--h-top--sm) * -1);
     @media (width >= 992px) {
         // 80px;
         margin-top: calc(var(--h-top) * -1);

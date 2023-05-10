@@ -20,6 +20,7 @@
   --col-secondary: var(--col-gold-400);
   --col-grey: #FFF0F0;
   --h-top: -90px;
+  --h-top--sm: -64px;
 }
 
 /*!
@@ -22388,7 +22389,7 @@ svg.chevron {
 }
 
 #main {
-  margin-top: 70px;
+  margin-top: calc(var(--h-top--sm) * -1);
 }
 @media (width >= 992px) {
   #main {
