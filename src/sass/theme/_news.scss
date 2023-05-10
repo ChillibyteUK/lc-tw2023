@@ -153,11 +153,12 @@
     }
 
     h5.d-lg-none::after {
-        content: "v";
+        content: "\f0d7";
+        font-family: "Font Awesome 6 Free";
         position: absolute;
         right: 1em;
     }
     h5.d-lg-none.collapsed::after {
-        content: ">";
+        content: "\f0da";
     }
 }

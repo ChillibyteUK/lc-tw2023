@@ -22098,12 +22098,13 @@ input[type=checkbox] {
   color: var(--col-gold-400);
 }
 .sidebar h5.d-lg-none::after, .sidebar .d-lg-none.h5::after {
-  content: "v";
+  content: "\f0d7";
+  font-family: "Font Awesome 6 Free";
   position: absolute;
   right: 1em;
 }
 .sidebar h5.d-lg-none.collapsed::after, .sidebar .d-lg-none.collapsed.h5::after {
-  content: ">";
+  content: "\f0da";
 }
 
 .hero {
