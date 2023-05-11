@@ -9,7 +9,7 @@
                     <?php
                     if (get_field('content')) {
                         ?>
-                        <div class="hero__content mb-4"><?=get_field('content')?></div>
+                        <span class="hero__content mb-4"><?=get_field('content')?></span>
                         <?php
                     }
                     ?>
