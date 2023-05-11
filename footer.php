@@ -17,7 +17,7 @@ defined('ABSPATH') || exit;
         <div class="row pb-4">
             <div class="col-sm-6 col-lg-3 mb-2">
                 <a href="<?=get_home_url()?>"><img src="<?=get_stylesheet_directory_uri()?>/img/tw-logo.svg" alt="Tidey & Webb" class="logo img-fluid mb-4"></a>
-				<?=do_shortcode('[brb_collection id="615"]')?>
+				<?=do_shortcode('[brb_collection id="554"]')?>
             </div>
             <div class="col-sm-6 col-lg-3 mb-2">
                 <ul class="fa-ul">
