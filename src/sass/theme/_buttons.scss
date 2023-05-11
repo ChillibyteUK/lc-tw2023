@@ -136,3 +136,8 @@
         color: var(--col-grey-400);
     }
 }
+
+.wp-block-button__link {
+    @extend .btn;
+    @extend .btn-primary;
+}
