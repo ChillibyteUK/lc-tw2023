@@ -2867,7 +2867,7 @@ textarea.form-control-lg {
   opacity: var(--bs-btn-disabled-opacity);
 }
 
-.btn-primary, .wp-block-button__link {
+.btn-primary {
   --bs-btn-color: #000;
   --bs-btn-bg: hsl(129deg, 41%, 60%);
   --bs-btn-border-color: hsl(129deg, 41%, 60%);
@@ -21815,7 +21815,7 @@ sup {
   transform: translateY(2px);
 }
 
-.btn-green {
+.btn-green, .wp-block-button__link {
   background-color: var(--col-green-600);
   border: 2px solid var(--col-gold-600);
   color: var(--col-gold-600);
@@ -21826,7 +21826,7 @@ sup {
   transition: all 0.2s ease;
   box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
 }
-.btn-green:hover {
+.btn-green:hover, .wp-block-button__link:hover {
   background-color: var(--col-gold-600);
   border-color: var(--col-gold-600);
   color: var(--col-green-600) !important;
@@ -21927,6 +21927,10 @@ sup {
 
 .btn-previous:hover a, .btn-next:hover a {
   color: var(--col-grey-400);
+}
+
+.wp-block-buttons {
+  margin-bottom: 1rem;
 }
 
 .wpcf7 {
