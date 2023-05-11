@@ -4,8 +4,16 @@
         <div class="row">
             <div class="col-lg-8 py-5 d-lg-flex align-items-center z-index-0">
                 <div class="text-center text-lg-start">
-                    <h1 class="hero__title"><?=get_field('title')?></h1>
-                    <div class="hero__content mb-4"><?=get_field('content')?></div>
+                    <h1>
+                        <span class="hero__title"><?=get_field('title')?></span>
+                    <?php
+                    if (get_field('content')) {
+                        ?>
+                        <div class="hero__content mb-4"><?=get_field('content')?></div>
+                        <?php
+                    }
+                    ?>
+                    </h1>
                     <?php
                     if (get_field('show_cta')) {
                         ?>
